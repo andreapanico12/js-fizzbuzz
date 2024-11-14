@@ -19,3 +19,16 @@ let numeroStampato;
 
 // Logica
 
+for (let i = 1; i <= 100; i++){
+
+  if ( i % 3 === 0 && i % 5 === 0)
+    numeroStampato = `FizzBuzz`;
+  else if ( i % 3 === 0 )
+    numeroStampato = `Fizz`;
+  else if ( i % 5 === 0)
+    numeroStampato = `Buzz`;
+  else
+  numeroStampato = i;
+
+  console.log(numeroStampato);
+}
